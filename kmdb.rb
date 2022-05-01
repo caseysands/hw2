@@ -285,6 +285,10 @@ puts "Top Cast"
 puts "========"
 puts ""
 
+
+# Query the cast data and loop through the results to display the cast output for each movie.
+# TODO!
+
 cast_list = Role.all
 
 for cast in cast_list
@@ -295,6 +299,3 @@ for cast in cast_list
     character_name = cast["character_name"]
     puts "#{movie_title}     #{actor_name}     #{character_name}"
 end
-
-# Query the cast data and loop through the results to display the cast output for each movie.
-# TODO!
