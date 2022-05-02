@@ -297,5 +297,5 @@ for cast in cast_list
     actor = Actor.find_by({"id" => cast["actor_id"]})
     actor_name = actor["name"]
     character_name = cast["character_name"]
-    puts "#{movie_title}     #{actor_name}     #{character_name}"
+    puts "#{movie_title}  #{actor_name}  #{character_name}"
 end
